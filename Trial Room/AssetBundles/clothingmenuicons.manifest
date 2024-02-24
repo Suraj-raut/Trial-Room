@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1122966589
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd0a2345d598b724315e626a595b9720
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cd0a2345d598b724315e626a595b9720
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Images/ItemsIcons/christmas-sweater.png
+- Assets/Images/ItemsIcons/zip-hoodie.png
+- Assets/Images/ItemsIcons/baseball-cap.png
+- Assets/Images/ItemsIcons/Blue Denim.png
+- Assets/Images/ItemsIcons/Black T-shirt.png
+- Assets/Images/ItemsIcons/nike-sneakers.png
+- Assets/Images/ItemsIcons/shoes-adidas.png
+- Assets/Images/ItemsIcons/Dark Blue Jeans.png
+- Assets/Images/ItemsIcons/cap-nike.png
+- Assets/Images/ItemsIcons/White T-shirt.png
+Dependencies: []

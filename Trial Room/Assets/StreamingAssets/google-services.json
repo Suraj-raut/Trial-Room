@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "426629375412",
+    "firebase_url": "https://trial-room-59e19-default-rtdb.firebaseio.com",
+    "project_id": "trial-room-59e19",
+    "storage_bucket": "trial-room-59e19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426629375412:android:261342f9da733b75ea3ee1",
+        "android_client_info": {
+          "package_name": "com.CreativeCuriosities.TrialRoom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMpYy7ibvWmc7v0xEtXHi0vz4mxoYCV4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
