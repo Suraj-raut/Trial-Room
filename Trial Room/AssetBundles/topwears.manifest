@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 856144718
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c4c5c479d28970b6ad29bc105d164dc7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c4c5c479d28970b6ad29bc105d164dc7
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Images/zip-hoodie.png
+- Assets/Images/Black T-shirt.png
+- Assets/Images/christmas-sweater.png
+- Assets/Images/White T-shirt.png
+Dependencies: []

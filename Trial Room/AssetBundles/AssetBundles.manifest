@@ -1,7 +1,16 @@
 ManifestFileVersion: 0
-CRC: 4030670817
+CRC: 410106996
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: clothingmenuicons
+      Name: caps
+      Dependencies: {}
+    Info_1:
+      Name: topwears
+      Dependencies: {}
+    Info_2:
+      Name: sheos
+      Dependencies: {}
+    Info_3:
+      Name: bottomwears
       Dependencies: {}

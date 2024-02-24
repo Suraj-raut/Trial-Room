@@ -33,7 +33,9 @@ public class DownloadAssetBundles : MonoBehaviour
         storage = FirebaseStorage.DefaultInstance;
         storageReference = storage.GetReferenceFromUrl("gs://trial-room-59e19.appspot.com");
         
-        StorageReference AllItemsAssetBundle = storageReference.Child("clothingmenuicons");
+       // StorageReference AllItemsAssetBundle = storageReference.Child("clothingmenuicons");
+        StorageReference AllItemsAssetBundle = storageReference.Child("/MenuItemsCategories/BottomWears/bottomwears");
+
 
         AllItemsAssetBundle.GetDownloadUrlAsync().ContinueWithOnMainThread(task =>
         {
