@@ -10,6 +10,8 @@ public class CircularScrollMenu : MonoBehaviour
 
     private RectTransform scrollRect;
 
+    [SerializeField] private DownloadAssetBundles _DownloadAssetBundles;
+
     void Start()
     {
         scrollRect = GetComponent<RectTransform>();
@@ -22,5 +24,20 @@ public class CircularScrollMenu : MonoBehaviour
 
         // Rotate the scroll view
         scrollRect.Rotate(Vector3.forward, rotation);
+    }
+
+    public void OnClickItemsCategory(string _category)
+    {
+        Debug.Log("Category1: " + _category);
+        if(_category != null && !GameManager.Instance.MenuItemsDict.ContainsKey(_category))
+        { 
+             Debug.Log("Category2: " + _category);
+            _DownloadAssetBundles.GetTheUrlFromFirebaseServer(_category);
+        }
+        else
+        {
+            return;
+           
+        }
     }
 }

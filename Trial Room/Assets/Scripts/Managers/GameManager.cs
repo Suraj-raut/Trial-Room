@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +17,13 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-   // public Dictionary<string,List<Sprite>> MenuItemsDict = new Dictionary<string,List<Sprite>>();
-    public  List<Sprite> MenuItemsList = new List<Sprite>();    
+   public Dictionary<string,List<Sprite>> MenuItemsDict = new Dictionary<string,List<Sprite>>();
+    
+    public  List<Sprite> TopWearsList = new List<Sprite>();
+    public  List<Sprite> BottomWearsList = new List<Sprite>();
+    public  List<Sprite> SheosList = new List<Sprite>();
+    public  List<Sprite> CapsList = new List<Sprite>();
+
+ //   public static Action OnClickCategoriesOption;
+  //  public string TypeWanted = "";
 }
